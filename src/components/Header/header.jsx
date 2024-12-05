@@ -1,4 +1,4 @@
-import Logo from "../../assets/Logo.png"
+import logo from "../../assets/logo.png"
 import Busca from "../../assets/busca.png"
 import { BrowserRouter, Route, Routes, Link } from "react-router-dom"
 import Inicio from "../../Pages/Inicio/inicio"
@@ -12,7 +12,7 @@ export default function Header() {
         <BrowserRouter>
         <header>
             <section className={S.boxLogo}>
-                <img src={Logo} alt="imagem de um livro" />
+                <img src={logo} alt="imagem de um livro" />
             <h1>Livros Vai na Web   </h1>
             </section>
             <nav className={S.boxMenu}>
