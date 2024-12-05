@@ -1,8 +1,14 @@
-# React + Vite
+Doar Livros VNW 📚
+Este projeto foi desenvolvido com React e estilizado utilizando Sass Modularizado, com o objetivo de criar uma plataforma interativa e organizada para doação de livros.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📋 Funcionalidades
+Página Inicial: Visão geral do projeto com banner informativo.
+Seção de Livros Doados: Exibição de livros já doados.
+Seção "Quero Doar": Formulário para registrar novos livros para doação.
+Componentização: Utilização de componentes reutilizáveis como Header e Footer.
+Estilização Modularizada: Separação de estilos por componentes com Sass (module.scss).
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🛠️ Tecnologias Utilizadas
+React: Framework para construção de interfaces de usuário.
+Sass: Pré-processador CSS para criar estilos mais organizados e reutilizáveis.
+Vite: Ferramenta para criação e otimização do ambiente de desenvolvimento.
