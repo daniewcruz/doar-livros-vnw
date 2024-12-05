@@ -1,0 +1,166 @@
+
+header{
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(0,27,47,1) 0%, rgba(0,86,149,1) 88%);
+}
+
+.boxLogo{
+   width: 23vw;
+   display: flex;
+   align-items: center;
+   color: white;
+   height: 15vh;
+   justify-content: space-evenly;
+   h1{
+       font-size: 25px;
+       font-weight: bold;
+   }
+    
+}
+
+.boxMenu{
+    width: 35vw;
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 20px;
+    }
+    a{
+        color: white;
+    }
+
+}
+
+.boxSearch{
+    border: solid 2px #ffffff;
+    width: 20vw;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    padding-right: 10px;
+    margin-right: 20px;
+     
+}
+
+.boxInput{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding-left: 20px;
+    color: white;
+    font-size:  12px;
+    &::placeholder{
+        color: white;
+       
+    }
+}
+
+
+@media(max-width: 1170px) {
+    .boxLogo{ 
+        width: 25vw;
+      h1{
+        font-size: 1.9vw;
+    }
+       
+        img{
+            width: 5vw;
+        }
+    }
+
+    .boxMenu{
+        ul{
+            font-size: 1.8vw;
+        }
+    }
+
+    .boxSearch{
+        width: 20vw;  
+    }
+
+   .boxInput{
+    width: 16vw;
+    &::placeholder{
+        font-size: 1.2vw;
+    }
+   }
+}
+
+@media(  max-width: 1200px) {
+    header{
+        height: 15vh;
+        padding-bottom: 5px;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .boxSearch{
+      display: none; 
+    }
+
+    .boxInput{
+        display: none;
+    }
+
+    .boxLogo{
+        width: 100%;
+        h1{
+            font-size: 35px;
+        }
+        img{
+            width: 80px;
+        }
+    }
+
+    .boxMenu{
+        width: 100%;
+        ul{
+            font-size: 30px;
+            justify-content: space-evenly;
+        }
+    }
+}
+
+@media(max-width: 1000px) {
+    header{
+        height: 20vh;
+    }
+    .boxLogo{
+        h1{
+            font-size: 25px;
+        }
+    }
+
+    .boxMenu{
+        ul{
+            font-size: 20px;
+        }
+    }
+
+
+}
+
+@media(max-width: 500px) {
+    header{
+        height: 25vh;
+    }
+    .boxLogo{
+        img{
+            width: 60px;}
+        h1{
+            font-size: 20px;
+        }
+    }
+
+    .boxMenu{
+        ul{
+            font-size: 15px;
+        }
+    }
+}   

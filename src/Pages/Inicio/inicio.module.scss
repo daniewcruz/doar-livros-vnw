@@ -1,0 +1,271 @@
+.post{
+    background-image: url("../../assets/banner.png");
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    color: white;
+    h2{
+        width: 27vw;
+        margin-left: 130px;
+        font-size: 40px;
+    }
+}
+
+.devoDoar{
+    height: 90vh;
+    
+    div{
+        height: 15vh;
+        display: flex;
+        align-items: center;
+        h2{
+            font-size: 30px;
+            margin-left: 60px;
+            color: #005695;
+
+        }
+    }
+}
+
+.boxCard{
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    article{
+        width: 20%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background: #0157944D;
+        border-radius: 10px;
+        p{
+            text-align: center;
+            width: 70%;
+            font-size: 20px;
+        }
+
+    }
+}
+
+@media(max-width: 1200px) {
+    .post{
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50vh;
+      margin-right: 20;
+      h2{
+        height: 20vh;
+        width: 50vw;
+        font-size: 40px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-right: 95px;
+      }
+    }
+
+    .devoDoar{
+        height: 170vh;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        div{
+            
+            height: 5vh;
+            margin-top: 50px;
+            margin-right: 50px; 
+            h2{
+                font-size: 50px;
+                margin-bottom: 30px;
+
+                color: #005695;
+    
+            }
+        }
+    }
+
+    .boxCard{
+        height: 150vh;
+        width: 60vw;
+       
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        article{
+            width: 100%;
+            height: 40vh;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            p{
+                font-size: 30px;
+            }
+        }
+    }
+}
+
+@media(max-width: 700px) {
+    .post{
+      
+      background-size: cover;
+      width: 100%;
+      
+      height: 50vh;
+      
+      h2{
+        width: 80vw;
+        font-size: 30px;
+        text-align: center;
+        display: flex;
+      justify-content: center;
+     
+      }
+    }
+
+    .devoDoar{
+        height: 90vh;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        div{
+            
+            height: 5vh;
+            margin-right: 50px; 
+            h2{
+                font-size: 50px;
+                margin-bottom: 30px;
+
+                color: #005695;
+    
+            }
+        }
+    }
+
+    .boxCard{
+        height: 75vh;
+        width: 60vw; 
+        article{
+            width: 100%;
+            height: 30vh;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media(max-width: 500px) {
+    .post{
+      
+      background-size: cover;
+      width: 100%;
+      
+      height: 60vh;
+      
+      h2{
+        width: 100vw;
+        margin: 10px;
+        height: 50vh;
+        font-size: 10px;
+        text-align: center;
+        display: flex;
+      justify-content: center;
+      
+     
+      }
+    }
+
+    .devoDoar{
+        height: 190vh;
+        align-items: center; 
+               
+        div{
+            height: 0vh;
+            width: 110vw;
+           align-items: center;
+           justify-content: center;
+            h2{
+                font-size: 20px;         
+                color: #005695;
+    
+            }
+        }
+    }
+
+    .boxCard{
+        height: 165vh;
+        width: 60vw; 
+        article{
+            img{
+                width: 70px;}
+            width: 40vh;
+            height: 80vh;
+            margin-bottom: 5px;
+            padding: 5px;
+            p{
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+
+@media(max-width: 1000px) {
+    .post{
+      
+      background-size: cover;
+      width: 100%;
+      
+      height: 50vh;
+      
+      h2{
+        width: 80vw;
+        font-size: 30px;
+        text-align: center;
+        display: flex;
+      justify-content: center;
+     
+      }
+    }
+
+    .devoDoar{
+        height: 170vh;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        div{
+            
+            height: 5vh;
+            margin-right: 50px; 
+            h2{
+                font-size: 50px;
+                margin-bottom: 30px;
+
+                color: #005695;
+    
+            }
+        }
+    }
+
+    .boxCard{
+        height: 150vh;
+        width: 60vw; 
+        article{
+            width: 100%;
+            height: 50vh;
+            margin-bottom: 20px;
+            p{
+                font-size: 20px;}
+        }
+    }
+}
