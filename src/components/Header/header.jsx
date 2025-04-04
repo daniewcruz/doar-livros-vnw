@@ -2,7 +2,7 @@ import logo from "../../assets/logo.png"
 import Busca from "../../assets/busca.png"
 import { BrowserRouter, Route, Routes, Link } from "react-router-dom"
 import Inicio from "../../Pages/Inicio/inicio"
-import Doados from "../../Pages/Doados/doados"
+import Doados from "../../Pages/Doados/Doados"
 import QueroDoar from "../../Pages/QueroDoar/queroDoar"
 import S from "./header.module.scss"    
 
